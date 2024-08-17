@@ -484,7 +484,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "如果您需要帮助，请确保已登录。如未登录，请访问[登录](/#/auth)页面并输入正确的访问密码。如有任何疑问，欢迎在 GitHub 上提交问题或发送邮件至 support@347108.xyz。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
